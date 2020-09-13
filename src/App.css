@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  background-image: url(./img/pattern.jpg);
+  font-family: 'Montserrat';
+  background-repeat: repeat;
+  margin: 0;
+  height: auto;
 }
 
 .App-logo {
@@ -35,4 +39,151 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+header {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 1;
+  margin-bottom: 40px;
+}
+
+section {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: white;
+  position: relative;
+  top: 70px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: black;
+  color: white;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+table{
+  background: #fff;
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid #282c34;
+}
+
+th{
+  background: #eee;
+  padding: 20px;
+}
+
+td {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+}
+form {
+  margin: 0 auto;
+}
+.container {
+  background: #fff;
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid #282c34;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 40px;
+}
+
+.label{
+  display: inline-block;
+  width: 200px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+textarea{
+  width: 70%;
+  height: 100px;
+}
+input{
+  width: 70%;
+  height: 30px;
+}
+
+button{
+  background: tomato;
+  padding: 10px 15px;
+  color: #fff;
+  margin: 5px 0;
+  border: none
+}
+
+h1{
+  border-bottom: 3px solid tomato;
+  margin-bottom: 40px;
+}
+
+.movie {
+  background: coral;
+  width: 80%;
+  padding: 60px 40px 60px 40px;
+  margin: 0 auto;
+  border-bottom: 3px solid #282c34;
+}
+
+.info {
+  display: flex;
+}
+
+.image {
+  width: 65%;
+  object-fit: cover;
+  height: 300px;
+}
+
+span{
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.login {
+  background: #eee;
+  padding: 50px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
 }
